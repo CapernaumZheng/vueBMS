@@ -10,7 +10,6 @@
 </template>
 
 <script>
-  import { downloadTableList } from '@/api/reportQuery/index'
   export default {
     name: 'downloadFile',
     data() {
