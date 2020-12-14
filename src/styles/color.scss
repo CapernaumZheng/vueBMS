@@ -1,0 +1,60 @@
+@import './variables.scss';
+
+.main-font-color{
+  background-color: $main-font;
+  color: $main-font;
+}
+
+.minor-font-color{
+  color: $minor-font;
+}
+
+.page-bg-color{
+  background-color: $page-color;
+}
+
+.sub-bg-color{
+  background-color: $sub-color;
+}
+
+.sub-color{
+  color: $sub-color;
+}
+
+.page-input-bg{
+  background-color: $page-input;
+}
+
+.font-bg-color{
+  background-color: $main-font;
+}
+
+.minor-bg-color{
+  background-color: $minor-font;
+}
+
+.tip-bg-color{
+  background-color: $tip-font;
+}
+
+.border-bg-color{
+  background-color: $border-color;
+}
+
+.btn-fill-bg{
+  background-color: $btn-fill;
+}
+
+.sidebar-bg{
+  background-color: $page-color;
+  .menu-wrapper{
+    background-color: $page-color;
+  }
+  .el-menu{
+    background-color: $page-color !important;
+  }
+}
+
+.top-nav-color{
+  background-color: $page-color;
+}

@@ -1,0 +1,115 @@
+@import './variables.scss';
+
+.primary-btn{
+  background: $sub-color;
+  border-color: $sub-color;
+  color: $white;
+}
+
+.plain-btn{
+  border-color: $sub-color;
+  color: $sub-color;
+}
+
+.grey-btn{
+  background: $btn-fill;
+  border-color: $border-color;
+  color: $minor-font;
+}
+
+.el-button{
+  font-size: 16px;
+}
+
+.primary-btn:focus, .primary-btn:hover {
+  background: $btn-press;
+  border-color: $btn-press;
+  color: $white;
+}
+
+.plain-btn:focus{
+  background: $sub-color !important;
+  border-color: $sub-color !important;
+  color: $white !important;
+}
+
+.plain-btn:hover,el-button--primary{
+  background: $sub-color !important;
+  border-color: $sub-color !important;
+  color: $white !important;
+}
+
+.el-button--primary{
+  background: $sub-color;
+  border-color: $sub-color;
+  color: $white;
+}
+
+.grey-btn:focus{
+  background: $border-color;
+  border-color: $border-color;
+  color: $main-font;
+}
+
+.grey-btn:hover{
+  background: $border-color;
+  border-color: $border-color;
+  color: $main-font;
+}
+
+.btn-pressed{
+  background: $btn-press;
+  border-color: $btn-press;
+  color: $white;
+  &:hover,&:focus{
+    background: $btn-press;
+    border-color: $btn-press;
+    color: $white;
+  }
+}
+
+.plain-btn-pressed{
+  background: $sub-color !important;
+  border-color: $sub-color !important;
+  color: $white !important;
+  &:focus,&:hover {
+    background-color: $sub-color !important;
+    border-color: $sub-color !important;
+    color: $white !important;
+  }
+}
+
+.grey-btn-pressed{
+  background-color: $border-color !important;
+  border-color: $border-color !important;
+  color: $main-font !important;
+  &:focus,&:hover {
+    background-color: $border-color;
+    border-color: $border-color;
+    color: $main-font !important;
+  }
+}
+
+.btn-disabled{
+  background: $border-color !important;
+  color: $white !important;
+  &:hover,&:focus{
+    background: $border-color !important;
+    border-color: $border-color !important;
+    color: $white !important;
+  }
+}
+
+.icon-disabled{
+  color: #ababab;
+  cursor: not-allowed !important;
+}
+
+.icon-operate{
+  display: inline-block;
+  .svg-icon{
+    width: 20px !important;
+    height: 20px !important;
+    cursor: pointer;
+  }
+}

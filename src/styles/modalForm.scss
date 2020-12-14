@@ -1,0 +1,140 @@
+.add-half-item{
+  display: inline-block;
+  width: calc(50% - 20px);
+}
+
+.add-half-item:nth-child(odd){
+  margin-right: 20px;
+}
+
+.common-form-item-none{
+  .el-form-item__content{
+    width: 100%;
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-22{
+  .el-form-item__content{
+    width: calc(100% - 22px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-40{
+  .el-form-item__content{
+    width: calc(100% - 40px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-68{
+  .el-form-item__content{
+    width: calc(100% - 68px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-71{
+  .el-form-item__content{
+    width: calc(100% - 71px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-78{
+  .el-form-item__content{
+    width: calc(100% - 78px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-82{
+  .el-form-item__content{
+    width: calc(100% - 82px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-92{
+  .el-form-item__content{
+    width: calc(100% - 92px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-96{
+  .el-form-item__content{
+    width: calc(100% - 96px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-102{
+  .el-form-item__content{
+    width: calc(100% - 102px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-106{
+  .el-form-item__content{
+    width: calc(100% - 106px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-110{
+  .el-form-item__content{
+    width: calc(100% - 110px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-120{
+  .el-form-item__content{
+    width: calc(100% - 120px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.common-form-item-138{
+  .el-form-item__content{
+    width: calc(100% - 138px);
+  }
+  .el-date-editor.el-input{
+    width: 100%;
+  }
+}
+
+.error-tip-position{
+  .el-form-item__error{
+    left:-7px;
+  }
+}
