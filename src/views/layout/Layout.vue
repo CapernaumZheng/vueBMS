@@ -3,7 +3,7 @@
     <div v-if="device==='mobile'&&sidebar.opened" class="drawer-bg" @click="handleClickOutside"></div>
     <div class="ms-info">
       <svg-icon class="icon-space" icon-class="msIcon" />
-      <span style="font-size: 18px">监控管理系统</span>
+      <span style="font-size: 18px">后台管理系统</span>
     </div>
     <sidebar class="sidebar-container"></sidebar>
     <div class="main-container">

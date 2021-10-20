@@ -1,8 +1,8 @@
 <template>
   <div class="login-container">
     <el-form class="login-form" autoComplete="on" :model="loginForm" :rules="loginRules" ref="loginForm" label-position="left">
-      <h3 class="title" style="margin-bottom: 16px;">监控管理系统</h3>
-      <h6 class="title" style="font-size: 20px">Monitoring And Management System</h6>
+      <h3 class="title" style="margin-bottom: 16px;">后台管理系统</h3>
+      <h6 class="title" style="font-size: 20px">Backend Management System</h6>
       <el-form-item prop="username" class="login-width">
         <span class="svg-container svg-container_login">
           <svg-icon icon-class="user" />

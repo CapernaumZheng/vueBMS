@@ -353,7 +353,7 @@
     created() {
       /* queryTree().then(response => {
         if (response.code === '20000') {
-          const rootTree = [{ 'name': '郑州商品交易所', 'id': '0', 'type': '0' }]
+          const rootTree = [{ 'name': '商品交易所', 'id': '0', 'type': '0' }]
           this.sysTreeData = constructTree([], rootTree)
         } else {
           showMessage(response)

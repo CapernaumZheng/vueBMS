@@ -152,7 +152,7 @@
       },
       sendMessage() {
         this.stompClient.send('/app/chat/' + '前端框架', {}, JSON.stringify({
-          from: '郑喜云',
+          from: 'zackzheng',
           text: this.websocketMessage
         }))
       },

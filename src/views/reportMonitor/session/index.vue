@@ -16,7 +16,6 @@
 </template>
 
 <script>
-  import { downloadTableList } from '@/api/reportQuery/index'
   export default {
     name: 'downloadFile',
     data() {
@@ -32,14 +31,14 @@
     methods: {
       setSession() {
         this.aaa++
-        sessionStorage.setItem("localSession", "本地session"+this.aaa);
+        sessionStorage.setItem('localSession', '本地session' + this.aaa)
       },
       openWindow() {
-          let routeUrl = this.$router.resolve({
-          path: "/report_monitor/session2",
-          query: {id:96}
-        });
-        window.open(routeUrl.href, '_blank');
+        const routeUrl = this.$router.resolve({
+          path: '/report_monitor/session2',
+          query: { id: 96 }
+        })
+        window.open(routeUrl.href, '_blank')
       }
     }
   }
